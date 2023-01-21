@@ -1,0 +1,51 @@
+{
+  "name": "@m-fil/ui-kit-test-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/m-fil"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-fil/ui-kit-test-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-fil/ui-kit-test-lib/issues"
+  },
+  "homepage": "https://github.com/M-fil/ui-kit-test-lib#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.3.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-url": "^8.0.1",
+    "@svgr/rollup": "^6.5.1",
+    "@types/react": "^18.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "5.33.0",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^31.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "node-sass": "^8.0.0",
+    "rollup": "^3.10.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
