@@ -1,8 +1,8 @@
 import React, { HTMLProps, FC } from 'react'
 
-import { ReactComponent as CheckIconComponent } from 'core/assets/icons/check.svg'
-import { ReactComponent as QuestionMarkIconComponent } from 'core/assets/icons/question-mark.svg'
-import { ReactComponent as UserIconComponent } from 'core/assets/icons/user.svg'
+import { ReactComponent as CheckIconComponent } from '../../core/assets/icons/check.svg'
+import { ReactComponent as QuestionMarkIconComponent } from '../../core/assets/icons/question-mark.svg'
+import { ReactComponent as UserIconComponent } from '../../core/assets/icons/user.svg'
 
 export type IconProps = Partial<HTMLProps<SVGElement>>
 
