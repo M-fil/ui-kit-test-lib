@@ -33,6 +33,8 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
-    'react/display-name': 'off'
+    'react/display-name': 'off',
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/consistent-type-assertions': 'off'
   }
 }

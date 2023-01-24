@@ -6,5 +6,5 @@ declare module '*.scss' {
 declare module '*.svg' {
   import type { HTMLProps, FC } from 'react'
 
-  export const ReactComponent = FC<HTMLProps<SVGElement>>
+  export const ReactComponent: FC<HTMLProps<SVGElement>>
 }
